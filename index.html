@@ -1,22 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My page</title>
 </head>
 <body>
+
+<!--Header-->
 <header>
-    <h1>  &nbsp; &nbsp;Меню</h1>
+    <h1>  &nbsp; &nbsp;Menu</h1>
     <nav>
-        <ul style="margin-left: auto">
-            <li><a href="#">Главная</a></li>
-            <li ><a href="#">О нас</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Контакты</a></li>
+        <ul>
+            <li><a href="#">Main</a></li>
+            <li ><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
         </ul>
     </nav>
 </header>
 
+<hr>
 
+<!--Main-->
+<main>
+    <h2>Registration form</h2>
+<form>
+    <fieldset>
+        <legend>Your name</legend>
+        <div><input type="text" placeholder="First name"> &nbsp;
+             <input type="text" placeholder="Last name"
+        </div>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend> Contacts </legend>
+        <div><input type="email" placeholder="Email"> &nbsp;
+             <input type="number" placeholder="Phone number">
+        </div>
+    </fieldset>
+
+    <br>
+
+    <hr>
+
+    <div> <span><b>Date of birth:</b></span> &nbsp;
+        <input type="date"> &nbsp; &nbsp;
+        <span><b>Gender:</b></span>
+        <input type="checkbox"> Male
+        <input type="checkbox"> Female
+    </div>
+
+    <hr>
+
+    <fieldset>
+        <legend> Other information</legend>
+        <div>
+            <span>Your hobby: </span> &nbsp;
+            <select>
+                <option> Reading </option>
+                <option> Sport </option>
+                <option> Dancing </option>
+                <option> Traveling </option>
+                <option> Painting </option>
+                <option> Gaming </option>
+                <option> Cooking </option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <span>Native language: </span> &nbsp;
+            <select>
+                <option> Ukrainian </option>
+                <option> English </option>
+                <option> Spanish </option>
+                <option> French </option>
+                <option> German </option>
+                <option> Italian </option>
+                <option> ....    </option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <span>Do you have a pet:</span>
+            <input type="radio"> Yes
+            <input type="radio"> No
+        </div>
+
+        <br>
+
+        <div> <span>Select the favorite color:</span> &nbsp; &nbsp;
+            <input type="color">
+        </div>
+    </fieldset>
+
+    <hr>
+
+    <span><b>Attach the file: </b></span>
+
+    <div>
+        <br>
+        <input type="file">
+    </div>
+    <hr>
+
+    <span><b>Additional info: </b></span>
+    <div>
+        <textarea cols="40" rows="9"> </textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+
+</form>
+</main>
+
+<br>
+<hr>
+<br>
+
+<!--Footer-->
+<footer>
+    <div>
+        <a href="https://t.me/juli_shrestha">
+            <img src="telegram.svg" alt="Telegram" height="30" width="30"> <b>Telegram</b>
+        </a>&nbsp;
+    </div>
+
+    <br>
+
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="marker.svg" alt=",marker" height="30" width="30"> &nbsp; <b>Kharkiv,Ukraine</b>
+    </div>
+
+
+    <br>
+
+
+    <div>
+        <a href="https://www.instagram.com/juliashrestha?igsh=MWF3OTlmM3UxZGpraw==">
+        <img src="instagram.svg" alt="Instargam" height="30" width="30"> <b>Instagram</b>
+    </a> &nbsp;
+    </div>
+
+    <br>
+
+
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="envelope.svg" alt="envelope" height="30" width="30"> &nbsp; <b>juliashrestha215@gmail.com</b>
+    </div>
+
+
+
+
+
+</footer>
 </body>
 </html>
